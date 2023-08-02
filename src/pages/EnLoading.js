@@ -4,7 +4,7 @@ const Loading = () => {
   const [count, setCount] = useState(0);
   const [style, setStyle] = useState({ width: "0%" });
 
-  const duration = 3000;
+  const duration = 1000;
 
   useEffect(() => {
     const startTime = Date.now();
